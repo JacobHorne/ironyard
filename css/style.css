@@ -20,9 +20,6 @@ h4{
 	font-size: 15px;
 }
 
-h1, p{
-	text-align: left;
-}
 .wrapper{
 	width: 1100px;
 	margin: 0 auto;
@@ -54,7 +51,7 @@ h1, p{
     display: block;
 }
 
-.main_navigation ul li{
+.main_navigation li{
 	list-style: none;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00dbf8+0,207cca+99,00a1ed+100,7db9e8+100 */
 	background: #00dbf8; /* Old browsers */
@@ -71,11 +68,13 @@ h1, p{
 }
 
 
+
 .large_header_image{
 	background: url(../img/main_image.png ) no-repeat;
 	background-size: cover;
 	position: relative;
 	padding: 100px;
+	color:white;
 }
 
 .button{
@@ -99,11 +98,21 @@ h1, p{
 
 
 .courses{
-	display:inline-block;
+	display:block;
 }
 
 .applications{
+	background: url(../img/applications.png ) no-repeat;
+	background-size: cover; 
 	position: relative;
+	padding:50px;
+	color:white;
+}
+
+
+.applications .button{
+	position:absolute;
+
 }
 
 .solidfooter{
@@ -116,6 +125,12 @@ h1, p{
     position: relative;
     left: 42%;
 }
+.bottomparagraphs{
+	display:inline-block;
+}
+.bottomparagraphs 
+
+
 
 
 
