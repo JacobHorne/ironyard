@@ -1,23 +1,29 @@
 /*css file*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
 
 body{
     background: white;
-}
-a{
-	color: white;
-	text-decoration: none;
-	display: block;
-	padding: 15px 25px;	
-}
-ul{
-	display: inline-block;
-}
-li{
- 	display: inline-block;
+    font-family: Arial;
 }
 
-h4{
-	font-size: 15px;
+h1{
+	font-size: 2.2em;
+}
+
+a{
+	color:white;
 }
 
 .wrapper{
@@ -26,22 +32,22 @@ h4{
 }
 .main_content{
 	background-color: white;
-	width: 100%;
+	width: 100%
 }
 
-.header{
-	width: 100%;
+.headerblock{
 }
+
+.watchnow{
+	position: relative;
+}
+
 .logo{
 	display: inline-block;
 	vertical-align: middle;
 }
 .main_navigation{
-	padding-top: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-bottom: 30px;
-    margin-left: 20px
+	display: inline-block;
 }
 
 .main_navigation ul{
@@ -62,9 +68,17 @@ h4{
 	background: -ms-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbf8', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-	margin-left: 20px;
-	padding: 0px 19px 0px 19;
 	border-radius: 5px;
+	padding: 20px 25px 20px 25px;
+	margin: 0px 20px 10px 20px;
+	display: inline-block;
+
+}
+
+.main_navigation a{	
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+
 }
 
 
@@ -74,7 +88,9 @@ h4{
 	background-size: cover;
 	position: relative;
 	padding: 100px;
-	color:white;
+	color: white;
+	border-radius: 5px;
+	margin-top: 20px;
 }
 
 .button{
@@ -90,15 +106,42 @@ h4{
 	border-radius: 5px;
 	display: block;
 	padding: 10px 50px;
+}
+
+.large_header_image .button{
+	position: absolute;
+    left: 95px;
+    bottom: 26px;
+}
+
+.large_header_image a {
 	position:absolute;
 	left: 10px;
-    bottom: 10px;
 }
 
 
-
 .courses{
-	display:block;
+	padding-bottom: 20px;
+
+}
+.courses li{
+	vertical-align: top;
+	display:inline-block;
+	width: 23%;
+	
+}
+.courses a{
+	display: block;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+
+	
+}
+.courses p{
+	font-size:.8em;
+	text-align: center;
+	padding: 15px;
 }
 
 .applications{
@@ -108,27 +151,88 @@ h4{
 	padding:50px;
 	color:white;
 }
+.applications a{
+
+}
+
+.applicationtext h1{
+	text-align: center;
+	padding: 10px;
+
+}
+.applicationtext p{
+	text-align: center;
+}
+
 
 
 .applications .button{
-	position:absolute;
+	position: absolute;
+    right: 41px;
+    top: 85px;
+    text-decoration: none;
 
 }
 
 .solidfooter{
 	width:100%;
 	background-color: #ff6c00;
+	color: white;
 
 }
+
+.footerbar{
+	width:50%;
+	margin: 0 auto;
+
+}
+.footerbar ul{
+	list-style: none;
+	
+
+}
+.footerbar li{
+	text-align: center;
+	padding: 10px;
+}
+
+
+.footerbar a{
+	text-decoration: none;
+}
+
 .invert{
 	padding: 29px;
     position: relative;
     left: 42%;
 }
+
 .bottomparagraphs{
-	display:inline-block;
+	border-top: 1px;
+	margin-bottom: 100px;
 }
-.bottomparagraphs 
+
+.bottomparagraphs h2{
+	display: block;
+	text-align: center;
+}
+
+.bottomparagraphs p{
+	text-align: center;
+	padding: 0px 25px;
+}
+
+
+.col1{
+	width: 45%;
+	float:left;
+	
+	
+}
+.col2{
+	width: 45%;
+	float:left;
+}
 
 
 
