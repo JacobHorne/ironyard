@@ -1,0 +1,127 @@
+/*css file*/
+
+body{
+    background: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;	
+}
+ul{
+	display: inline-block;
+}
+li{
+ 	display: inline-block;
+}
+
+h4{
+	font-size: 15px;
+}
+
+h1, p{
+	text-align: left;
+}
+.wrapper{
+	width: 1100px;
+	margin: 0 auto;
+}
+.main_content{
+	background-color: white;
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+}
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+.main_navigation{
+	padding-top: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 30px;
+    margin-left: 20px
+}
+
+.main_navigation ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.main_navigation ul li{
+	list-style: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00dbf8+0,207cca+99,00a1ed+100,7db9e8+100 */
+	background: #00dbf8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00dbf8 0%, #207cca 99%, #00a1ed 100%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00dbf8), color-stop(99%,#207cca), color-stop(100%,#00a1ed), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbf8', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	margin-left: 20px;
+	padding: 0px 19px 0px 19;
+	border-radius: 5px;
+}
+
+
+.large_header_image{
+	background: url(../img/main_image.png ) no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 100px;
+}
+
+.button{
+	color:white;
+	background: #00dbf8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00dbf8 0%, #207cca 99%, #00a1ed 100%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00dbf8), color-stop(99%,#207cca), color-stop(100%,#00a1ed), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00dbf8 0%,#207cca 99%,#00a1ed 100%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbf8', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px;
+	display: block;
+	padding: 10px 50px;
+	position:absolute;
+	left: 10px;
+    bottom: 10px;
+}
+
+
+
+.courses{
+	display:inline-block;
+}
+
+.applications{
+	position: relative;
+}
+
+.solidfooter{
+	width:100%;
+	background-color: #ff6c00;
+
+}
+.invert{
+	padding: 29px;
+    position: relative;
+    left: 42%;
+}
+
+
+
+
+
+
+
+
+
